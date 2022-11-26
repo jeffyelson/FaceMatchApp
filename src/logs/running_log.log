@@ -1,0 +1,76 @@
+[2022-11-26 23:25:11,184: INFO: generate_img_pkl]: stage01 started
+[2022-11-26 23:25:11,184: ERROR: generate_img_pkl]: [Errno 2] No such file or directory: 'config/config.yaml'
+Traceback (most recent call last):
+  File "D:\FaceMatchApp\src\generate_img_pkl.py", line 33, in <module>
+    generate_data_pickle_file(config_path=parsed_args.config,params_path=parsed_args.params)
+  File "D:\FaceMatchApp\src\generate_img_pkl.py", line 14, in generate_data_pickle_file
+    config=yaml_read(config_path)
+  File "D:\FaceMatchApp\src\utils\all_utils.py", line 6, in yaml_read
+    with open(path_for_yamlfile) as yaml_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'config/config.yaml'
+[2022-11-26 23:25:36,195: INFO: generate_img_pkl]: stage01 started
+[2022-11-26 23:25:36,197: ERROR: generate_img_pkl]: [Errno 2] No such file or directory: 'config/config.yaml'
+Traceback (most recent call last):
+  File "D:\FaceMatchApp\src\generate_img_pkl.py", line 33, in <module>
+    generate_data_pickle_file(config_path=parsed_args.config,params_path=parsed_args.params)
+  File "D:\FaceMatchApp\src\generate_img_pkl.py", line 14, in generate_data_pickle_file
+    config=yaml_read(config_path)
+  File "D:\FaceMatchApp\src\utils\all_utils.py", line 6, in yaml_read
+    with open(path_for_yamlfile) as yaml_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'config/config.yaml'
+[2022-11-26 23:28:35,280: INFO: generate_img_pkl]: stage01 started
+[2022-11-26 23:28:35,280: ERROR: generate_img_pkl]: [Errno 2] No such file or directory: 'config//config.yaml'
+Traceback (most recent call last):
+  File "D:\FaceMatchApp\src\generate_img_pkl.py", line 33, in <module>
+    generate_data_pickle_file(config_path=parsed_args.config,params_path=parsed_args.params)
+  File "D:\FaceMatchApp\src\generate_img_pkl.py", line 14, in generate_data_pickle_file
+    config=yaml_read(config_path)
+  File "D:\FaceMatchApp\src\utils\all_utils.py", line 6, in yaml_read
+    with open(path_for_yamlfile) as yaml_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'config//config.yaml'
+[2022-11-26 23:31:13,667: INFO: generate_img_pkl]: stage01 started
+[2022-11-26 23:31:13,670: ERROR: generate_img_pkl]: [Errno 2] No such file or directory: 'params.yaml'
+Traceback (most recent call last):
+  File "D:\FaceMatchApp\src\generate_img_pkl.py", line 33, in <module>
+    generate_data_pickle_file(config_path=parsed_args.config,params_path=parsed_args.params)
+  File "D:\FaceMatchApp\src\generate_img_pkl.py", line 15, in generate_data_pickle_file
+    params=yaml_read(params_path)
+  File "D:\FaceMatchApp\src\utils\all_utils.py", line 6, in yaml_read
+    with open(path_for_yamlfile) as yaml_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'params.yaml'
+[2022-11-26 23:31:43,456: INFO: generate_img_pkl]: stage01 started
+[2022-11-26 23:31:43,459: INFO: all_utils]: Creating directory at artifacts\pickle_format_data
+[2022-11-26 23:31:43,459: INFO: generate_img_pkl]: stage01 completed
+[2022-11-27 00:10:44,801: INFO: generate_img_pkl]: stage01 started
+[2022-11-27 00:10:44,803: INFO: all_utils]: Creating directory at artifacts\pickle_format_data
+[2022-11-27 00:10:44,803: ERROR: generate_img_pkl]: [WinError 3] The system cannot find the path specified: 'data'
+Traceback (most recent call last):
+  File "D:\FaceMatchApp\src\generate_img_pkl.py", line 38, in <module>
+    generate_data_pickle_file(config_path=parsed_args.config,params_path=parsed_args.params)
+  File "D:\FaceMatchApp\src\generate_img_pkl.py", line 24, in generate_data_pickle_file
+    actors = os.listdir(data_path)
+FileNotFoundError: [WinError 3] The system cannot find the path specified: 'data'
+[2022-11-27 00:12:11,058: INFO: generate_img_pkl]: stage01 started
+[2022-11-27 00:12:11,061: INFO: all_utils]: Creating directory at artifacts\pickle_format_data
+[2022-11-27 00:12:11,061: INFO: generate_img_pkl]: stage01 completed
+[2022-11-27 00:13:02,165: INFO: generate_img_pkl]: stage01 started
+[2022-11-27 00:13:02,172: INFO: all_utils]: Creating directory at artifacts\pickle_format_data
+[2022-11-27 00:13:02,173: ERROR: generate_img_pkl]: [WinError 123] The filename, directory name, or volume label syntax is incorrect: 'D:\\FaceMatchApp\\data\\Bollywood_celeb_face_localized\\bollywood_celeb_faces_0,D:\\FaceMatchApp\\data\\Bollywood_celeb_face_localized\\bollywood_celeb_faces_1,D:\\FaceMatchApp\\data\\Bollywood_celeb_face_localized\\bollywood_celeb_faces_2'
+Traceback (most recent call last):
+  File "D:\FaceMatchApp\src\generate_img_pkl.py", line 38, in <module>
+    generate_data_pickle_file(config_path=parsed_args.config,params_path=parsed_args.params)
+  File "D:\FaceMatchApp\src\generate_img_pkl.py", line 24, in generate_data_pickle_file
+    actors = os.listdir(data_path)
+OSError: [WinError 123] The filename, directory name, or volume label syntax is incorrect: 'D:\\FaceMatchApp\\data\\Bollywood_celeb_face_localized\\bollywood_celeb_faces_0,D:\\FaceMatchApp\\data\\Bollywood_celeb_face_localized\\bollywood_celeb_faces_1,D:\\FaceMatchApp\\data\\Bollywood_celeb_face_localized\\bollywood_celeb_faces_2'
+[2022-11-27 00:13:37,945: INFO: generate_img_pkl]: stage01 started
+[2022-11-27 00:13:37,949: INFO: all_utils]: Creating directory at artifacts\pickle_format_data
+[2022-11-27 00:13:37,949: ERROR: generate_img_pkl]: [WinError 123] The filename, directory name, or volume label syntax is incorrect: 'D:/FaceMatchApp/data/Bollywood_celeb_face_localized/bollywood_celeb_faces_0,D:/FaceMatchApp/data/Bollywood_celeb_face_localized/bollywood_celeb_faces_1,D:/FaceMatchApp/data/Bollywood_celeb_face_localized/bollywood_celeb_faces_2'
+Traceback (most recent call last):
+  File "D:\FaceMatchApp\src\generate_img_pkl.py", line 38, in <module>
+    generate_data_pickle_file(config_path=parsed_args.config,params_path=parsed_args.params)
+  File "D:\FaceMatchApp\src\generate_img_pkl.py", line 24, in generate_data_pickle_file
+    actors = os.listdir(data_path)
+OSError: [WinError 123] The filename, directory name, or volume label syntax is incorrect: 'D:/FaceMatchApp/data/Bollywood_celeb_face_localized/bollywood_celeb_faces_0,D:/FaceMatchApp/data/Bollywood_celeb_face_localized/bollywood_celeb_faces_1,D:/FaceMatchApp/data/Bollywood_celeb_face_localized/bollywood_celeb_faces_2'
+[2022-11-27 00:13:57,369: INFO: generate_img_pkl]: stage01 started
+[2022-11-27 00:13:57,372: INFO: all_utils]: Creating directory at artifacts\pickle_format_data
+[2022-11-27 00:13:57,373: INFO: generate_img_pkl]: stage01 completed
